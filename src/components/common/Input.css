@@ -1,0 +1,27 @@
+:root {
+    --primary: #4628ff;
+    --warning: #FFD028;
+    --danger: #EB3F27;
+    --success: #75fa83;
+    --white: #ffffff;
+    --dark: #181717;
+}
+
+.inpt {
+    width: 300px;
+	font-size: 13px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 8px;
+}
+
+.input--primary {
+    border: 1px solid var(--dark);
+}
+.input--error {
+    border: 1px solid var(--danger);
+}
+.input--success {
+    border: 1px solid var(--success);
+}

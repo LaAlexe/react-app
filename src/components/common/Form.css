@@ -1,0 +1,33 @@
+/*.form__control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid royalblue;
+    
+}
+
+*/
+
+.form__control {
+    text-align: center;
+    position: relative;
+    max-width: 400px;
+    padding: 60px 50px;
+    margin: 50px auto 0;
+    background-image: url(https://html5book.ru/wp-content/uploads/2017/01/photo-roses.jpg);
+    background-size: cover;
+}
+
+.form__control:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right bottom,rgba(43, 44, 78, .5),rgba(104, 22, 96, .5));
+}
+.form__control_inner {
+    position: relative;
+    text-align: center;
+}
